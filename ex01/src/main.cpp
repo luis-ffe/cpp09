@@ -6,7 +6,7 @@
 /*   By: luis-ffe <luis-ffe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 07:39:41 by luis-ffe          #+#    #+#             */
-/*   Updated: 2025/01/22 08:37:44 by luis-ffe         ###   ########.fr       */
+/*   Updated: 2025/01/22 09:44:15 by luis-ffe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     
 	if (argc != 2)
 	{
-        std::cerr << "Error: Expected RPN expression as argument." << std::endl;
+        std::cerr << "Error" << std::endl;
         return 1;
     }
 

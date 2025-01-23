@@ -6,7 +6,7 @@
 #    By: luis-ffe <luis-ffe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/10 12:36:46 by luis-ffe          #+#    #+#              #
-#    Updated: 2025/01/06 08:41:25 by luis-ffe         ###   ########.fr        #
+#    Updated: 2025/01/22 10:31:22 by luis-ffe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,12 +22,12 @@ RES = \033[0m
 C++ = c++
 CPPFLAGS = -Werror -Wall -Wextra -g -std=c++98
 
-NAME = mutant
+NAME = PmergeMe
 RM = rm -rf
 SDIR := src
 ODIR := obj
 
-SOURCES = main.cpp
+SOURCES = main.cpp PmergeMe.cpp
 
 OBJECTS := $(patsubst %.cpp,$(ODIR)/%.o,$(SOURCES))
 
